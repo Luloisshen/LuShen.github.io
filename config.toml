@@ -2,7 +2,8 @@ baseURL = '/'
 canonifyURLs = true
 languageCode = 'en-us'
 title = 'Lu Shen'
-theme = "barks"
+theme = ["barks", "hugo-embed-pdf-shortcode"]
+enableInlineShortcodes = true
 
 # Main menu
 [[menu.main]]
