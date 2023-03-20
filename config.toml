@@ -13,6 +13,11 @@ theme = "barks"
     name = "Publications"
     url  = "/publications"
     weight = 2
+[[menu.main]]
+    name = "CV"
+    url="/cv"
+    weight = 3
+
 #[[menu.main]]
 #    name = "Teaching"
 #    url  = "/teaching"
