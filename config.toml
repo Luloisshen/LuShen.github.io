@@ -1,4 +1,5 @@
-baseURL = 'https://luloisshen.github.io/lu.github.io/'
+baseURL = '/'
+canonifyURLs = true
 languageCode = 'en-us'
 title = 'Lu Shen'
 theme = "barks"
