@@ -2,12 +2,6 @@ baseURL = 'https://luloisshen.github.io/lu.github.io/'
 languageCode = 'en-us'
 title = 'Lu Shen'
 theme = "barks"
-# copyright = "© 2023 by Lu Shen. <a href='/privacy'>Privacy policy</a>."
-copyright = "© 2023 by Lu Shen.
-defaultContentLanguage = "en"
-# disableKinds = ["taxonomy", "taxonomyTerm"]
-languageCode = "en"
-theme = "barks"
 
 # Main menu
 [[menu.main]]
@@ -41,7 +35,6 @@ theme = "barks"
         show_footer = true
 
     [params.typography]
-#        title_font = "Urbanist"
         title_font = "Cutive Mono"
         body_font = "Source Sans Pro"
 
@@ -62,35 +55,9 @@ theme = "barks"
             class = "fab fa-github"
             url = "https://github.com/Luloisshen"
             weight = 2
-#        [params.social.google_scholar]
-#            name = "Google Scholar"
-#            class = "ai ai-google-scholar-square"
-#            url = "https://scholar.google.com/citations?user=oZZHf5EAAAAJ&hl=en"
-#            weight = 3
-#        [params.social.institution]
-#            name = "My institution"
-#            class = "fas fa-university"
-#            url = "https://appliedcrypto.ethz.ch/people/person-detail.MjYyODM0.TGlzdC8zMzE4LC0yODgzMDgzMDc=.html"
-#            weight = 5
-#        [params.social.linkedin]
-#            name = "LinkedIn"
-#            class = "fab fa-linkedin"
-#            url = "https://linkedin.com/in/matilda-backendal"
-#            weight = 6
         [params.social.orcid]
             name = "ORCID iD"
             class = "fab fa-orcid"
             url = "https://orcid.org/0000-0001-9495-7759"
             weight = 3
 
-
-
-# Options for Markdown renderer
-[markup]
-
-    [markup.goldmark.renderer]
-        unsafe = true
-        xHTML = true
-
-    [markup.highlight]
-        style = 'dracula'
